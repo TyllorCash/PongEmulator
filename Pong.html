@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pong Game</title>
+  <style>
+    body {
+      margin: 0;
+      background: black;
+      color: #00ff00;
+      font-family: monospace;
+      text-align: center;
+    }
+
+    canvas {
+      display: block;
+      margin: 20px auto;
+      border: 2px solid #00ff00;
+    }
+  </style>
+</head>
+<body>
+  <div class="pipboy">
+    <div class="pipboy-header">
+      <span>TYLLOR $ INDUSTRIES</span>
+      <span>PONG.SYS</span>
+    </div>
+  </div>
+  <div class="screen">
+    <canvas id="pong" width="800" height="400"></canvas>  
+    <div class="scanlines"></div>
+    <div class="flicker"></div>
+   </div>
+
+   <div class="pipboy-footer">
+    <span>PLAYER vs AI</span>
+    <span>STATUS: ONLINE </span>
+   </div>
+   <span>STATUS: ONLINE</span>
+
+   <script src="pong.js"></script>
+  <h1>PONG</h1>
+  <p>Player: W / S keys</p>
+
+  <canvas id="pong" width="800" height="400"></canvas>
+
+  <script src="PongGamePlay.js"></script>
+</body>
+</html>
